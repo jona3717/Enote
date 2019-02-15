@@ -2,7 +2,8 @@
 
 """Enote es una aplicación de consola para crear notas, estas son almacenadas en
 formato .txt de manera local. Por el momento Enote solo trabaja en CLI, esperao añadir
-nuevas características más adelante."""
+nuevas características más adelante. Enote se vale de Micro para modificar las notas,
+Micro es un editor de texto de consola elaborado en GO."""
 
 import funciones,os,time,os.path,sys
 
