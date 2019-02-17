@@ -6,12 +6,13 @@ nuevas características más adelante. Enote se vale de Micro para modificar las
 Micro es un editor de texto de consola elaborado en GO."""
 
 import funciones,os,time,os.path,sys
+from funciones import prompt
 
 
 def ini_enote():
     os.system('clear')
-    print('Enote')
-    print('=====')
+    prompt('Enote')
+    prompt('=====')
     print('')
     funciones.menu()
     print('')
@@ -33,8 +34,8 @@ def ini_enote():
         sys.exit()
     else:
         print('')
-        print('###################')
-        print('Ingreso incorrecto.')
+        prompt('###################')
+        prompt('Ingreso incorrecto.')
         time.sleep(1)
         return ini_enote()
 
