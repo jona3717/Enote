@@ -1,9 +1,10 @@
-##Enote
+Enote
+=====
 
 Esta aplicación ha sido desarrollada con Python.
 Permite crear y administrar notas de manera local aplicando el uso de la terminar en GNU/Linux.
 
-#Instalar Enote
+Instalar Enote
 --------------
 
 + Dar permisos de ejecución al archivo install con: chmod +x install.sh
@@ -12,7 +13,7 @@ Permite crear y administrar notas de manera local aplicando el uso de la termina
 
 
 
-#Desinstalar Enote
+Desinstalar Enote
 -----------------
 
 + Eliminar Carpeta de Enote: sudo rm -R /opt/Enote
