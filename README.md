@@ -18,3 +18,8 @@ Desinstalar Enote
 
 + Eliminar Carpeta de Enote: `sudo rm -R /opt/Enote`
 + Eliminar Lanzador de Enote: `sudo rm /bin/enote`
+
+Usar Enote
+----------
+
+Para utilizar Enote solo debes utilizar el comando `enote` en tu terminal
